@@ -1,0 +1,21 @@
+name: Bug 反馈
+description: 反馈 Quicker 2.x 使用问题
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: input
+    id: quicker-version
+    attributes:
+      label: Quicker 版本号
+      description: 请填写 Quicker 中显示的版本号。
+      placeholder: "例如：2.0.4"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 请说明发生了什么、期望是什么、如何复现。
+    validations:
+      required: true
