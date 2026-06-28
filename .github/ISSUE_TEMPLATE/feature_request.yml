@@ -1,0 +1,20 @@
+name: 需求或建议
+description: 提出 Quicker 2.x 的功能需求或改进建议
+title: "[需求] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 需求或建议
+      description: 请说明你希望 Quicker 增加或改进什么。
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 可选。说明这个需求解决什么问题，或你会在什么场景下使用它。
+    validations:
+      required: false
